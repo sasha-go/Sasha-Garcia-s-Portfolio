@@ -11,23 +11,31 @@ main, footer {
 
 
 
-img {
+#mainPhoto {
     border-radius: 50%;
     width: 15%;
-    border: double 5px lightgray;
+    border: solid 2px lightgray;
 }
 
-
-h1, h2, h3 {
+h1 {
+    color: #FE5757;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
-    color: #8A9896;
     text-align: left;
-    line-height: 1.5;
+}
+
+h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    color: gray;
+    text-align: left;
+}
+
+.name {
+    text-transform: uppercase;
 }
 
 ul, li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
-    color: #8A9896;
+    color:#FE5757;
     text-align: left;
     line-height: 1.5; 
     display: inline-block;
@@ -35,12 +43,35 @@ ul, li {
     padding-left: 0;
 }
 
+ul, li:hover {
+    opacity: 75%;
+}
+
 li {
     border-style: solid;
     padding: 8px 20px 8px 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
+li a {
+    color: #FE5757;
+    text-decoration: none;
+}
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    color: #8A9896;
+    text-align: left;
+    line-height: 2.0;
+    margin-right: 400px;
+}
+
+.projectImg {
+    width: 35%;
+    height: auto;
+}
 
 footer {
     margin-bottom: 150px;
